@@ -1,23 +1,210 @@
 {
   "krystoUser": [
     {
-      "id": 826303012202101,
+      "id": 82630,
+      "type": "particulier",
+      "dateNaissance": "19-03-1985",
       "dateInscription": "30-12-2021",
       "nom": "velten",
       "prenom": "stoyann",
       "mail": "stoyann-nc@hotmail.com",
+      "mdp": "azerty",
       "adresse": "8 rue higgingson residence le clos st jean app d03",
       "quartier": "Valée des colons",
       "ville": "Nouméa",
       "tel": "93-92-53",
       "zipCode": 98800,
-      "historiqueAchatsBoutique": [],
-      "historiqueDonAssociation": [],
+      "qrCode": "./src/qr-codeqr-82630.jpg",
+
       "TotalplastiqueCollecte": {
         "pp": 105,
         "hdpe": 43,
         "ps": 85
+      },
+      "krystoCoins": {
+        "totalDepense": 0,
+        "totalGagner": 233,
+        "credits": 233
       }
+    }
+  ],
+  "krystoAssociation": [
+    {
+      "id": 92630,
+      "type": "association",
+      "dateCreation": "19-03-2005",
+      "dateInscription": "05-01-2022",
+      "nom": "SOS mangrove",
+      "mail": "sosmangrove@hotmail.com",
+      "tel": "93-92-53",
+      "representant": {
+        "nom": "velten",
+        "prenom": "stoyann",
+        "mail": "stoyann-nc@hotmail.com",
+        "tel": "93-92-53"
+      },
+
+      "mdp": "uiop",
+      "adresse": "8 rue higgingson residence le clos st jean app d03",
+      "quartier": "Valée des colons",
+      "ville": "Nouméa",
+      "zipCode": 98800,
+      "qrCode": "./src/qr-codeqr-82630.jpg",
+
+      "TotalplastiqueCollecte": {
+        "pp": 505,
+        "hdpe": 443,
+        "ps": 285
+      },
+      "donKrystoCoins": [],
+      "krystoCoins": {
+        "totalDepense": 0,
+        "totalGagner": 233,
+        "credits": 233
+      }
+    }
+  ],
+
+  "articleKrysto": [
+    {
+      "id": 1001,
+      "type": "objet",
+      "nom": "mousquetons",
+      "cover": "mousquetons.jpeg",
+      "description": "Ce magnifique mousquetons en plastique recycle vous accompagneras partout",
+      "altText": "un mousquetons en plastique recycler krysto ",
+      "typeDePlastique": ["hdpe", "pp"],
+      "poidGr": 10,
+      "prix": 200,
+      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"],
+      "nbDeVentes": 0,
+      "stock": 1000
+    },
+    {
+      "id": 1002,
+      "type": "objet",
+      "nom": "mousquetons",
+      "cover": "mousquetons.jpeg",
+      "description": "Ce magnifique mousquetons en plastique recycle vous accompagneras partout",
+      "altText": "un mousquetons en plastique recycler krysto ",
+      "typeDePlastique": ["hdpe", "pp"],
+      "poidGr": 10,
+      "prix": 200,
+      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"],
+      "nbDeVentes": 0,
+      "stock": 1000
+    },
+    {
+      "id": 1002,
+      "type": "construction",
+      "nom": "Brique",
+      "cover": "brique.jpeg",
+      "description": "Laissez libre court a votre imagination avec les briques krysto",
+      "altText": "Un lot de brique krysto ",
+      "typeDePlastique": ["hdpe", "pp"],
+      "poidGr": 1500,
+      "prix": 455,
+      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"],
+      "nbDeVentes": 0,
+      "stock": 1000
+    },
+    {
+      "id": 1002,
+      "type": "mobilier",
+      "nom": "Banc Krysto",
+      "cover": "banc.jpeg",
+      "description": "contempler votre jardin confortablement installer sur un banc ecologique",
+      "altText": "Une femme assise sur un banc Krysto",
+      "typeDePlastique": ["hdpe", "pp"],
+      "poidGr": 5000,
+      "prix": 8000,
+      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"],
+      "nbDeVentes": 0,
+      "stock": 15
+    },
+    {
+      "id": 1003,
+      "type": "planche 200",
+      "nom": "planche 200",
+      "cover": "planche200.jpeg",
+      "description": "imaginez , construisez",
+      "altText": "Un lot de planches Krysto",
+      "typeDePlastique": ["hdpe", "pp", "ps"],
+      "poidGr": 3000,
+      "prix": 2000,
+      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"],
+      "nbDeVentes": 0,
+      "stock": 100
+    },
+    {
+      "id": 1004,
+      "type": "planche 150",
+      "nom": "planche 150",
+      "cover": "planche150.jpeg",
+      "description": "imaginez , construisez",
+      "altText": "Un lot de planches Krysto",
+      "typeDePlastique": ["hdpe", "pp", "ps"],
+      "poidGr": 2025,
+      "prix": 1520,
+      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"],
+      "nbDeVentes": 0,
+      "stock": 100
+    },
+    {
+      "id": 1005,
+      "type": "planche 070",
+      "nom": "planche 070",
+      "cover": "planche070.jpeg",
+      "description": "imaginez , construisez",
+      "altText": "Un lot de planches Krysto",
+      "typeDePlastique": ["hdpe", "pp", "ps"],
+      "poidGr": 1005,
+      "prix": 1050,
+      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"],
+      "nbDeVentes": 0,
+      "stock": 150
+    },
+    {
+      "id": 1006,
+      "type": "objet",
+      "nom": "peignesPM",
+      "cover": "peignePM.jpeg",
+      "description": "peignes de plages en plastique recycle",
+      "altText": "un peignes Krysto sur une plage deserte ",
+      "typeDePlastique": ["hdpe", "pp"],
+      "poidGr": 10,
+      "prix": 700,
+      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"],
+      "nbDeVentes": 0,
+      "stock": 500
+    },
+    {
+      "id": 1006,
+      "type": "objet",
+      "nom": "peignesGM",
+      "cover": "peigneGM.jpeg",
+      "description": "peignes de plages en plastique recycle",
+      "altText": "un peignes Krysto sur une plage deserte ",
+      "typeDePlastique": ["hdpe", "pp"],
+      "poidGr": 15,
+      "prix": 900,
+      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"],
+      "nbDeVentes": 0,
+      "stock": 500
+    },
+    {
+      "id": 1007,
+      "type": "objet",
+      "nom": "support tablette et telephone",
+      "cover": "supportTablette.jpeg",
+      "description": "un support de telephone et tablette",
+      "altText": "un support de telephone Krysto supportant une tablette",
+      "typeDePlastique": ["hdpe", "pp"],
+      "poidGr": 15,
+      "prix": 200,
+      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"],
+      "nbDeVentes": 0,
+      "stock": 400
     }
   ],
 
@@ -105,80 +292,6 @@
       "typeDePlastique": "HDPE",
       "remarques": "Seulement le bouchon de ce produit est recyclable par Krysto le reste (en PET) de doit être jetée dans la poubelle destinée au plastiques.",
       "partieRecyclable": "bouchon"
-    }
-  ],
-
-  "tutoKrysto": [
-    {
-      "id": 1001,
-      "name": "construire une horloge en plastique recyclé",
-      "cover": "construire-une-horloge.jpeg",
-      "altText": "",
-      "description": "Créez une horloge unique, a partir de dechets plastique",
-      "time": 45,
-      "coutTotalXpf": 3400,
-      "difficulte": "⭐",
-      "likes": 18,
-      "fournitureListe": [
-        {
-          "name": "mecanisme horloge",
-          "quantity": 1,
-          "unit": "piéce"
-        },
-        {
-          "name": "système d'accroche mural",
-          "quantity": 1,
-          "unit": "piéce"
-        },
-        {
-          "name": "Cadran horloge recyclée",
-          "quantity": 1,
-          "unit": "piéce"
-        }
-      ],
-
-      "outillage": ["visseuse", "tournevis"]
-    },
-    {
-      "id": 1002,
-      "name": "Une lampe design en plastique recyclé",
-      "cover": "lampe-design.jpeg",
-      "altText": "",
-      "description": "Créez une lampe design a base de dechets plastique ",
-      "time": 135,
-      "coutTotalXpf": 3400,
-      "difficulte": "⭐⭐⭐",
-      "likes": 34,
-      "fournitureListe": [
-        {
-          "name": "ruban led",
-          "quantity": 10,
-          "unit": "Cm"
-        },
-        {
-          "name": "raccord ruban en 220",
-          "quantity": 1,
-          "unit": "piéce"
-        },
-        {
-          "name": "feuille Krysto 30X30 3mm",
-          "quantity": 5,
-          "unit": "piéce"
-        }
-      ],
-
-      "outillage": ["pistolet a colle", "tournevis", "serre joint"]
-    }
-  ],
-  "articleKrysto": [
-    {
-      "id": 1001,
-      " name": "mousquetons",
-      "cover": "mousquetons.jpeg",
-      "altText": "",
-      "description": "mousqueton en plastique recycle",
-      "prix": 100,
-      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"]
     }
   ]
 }

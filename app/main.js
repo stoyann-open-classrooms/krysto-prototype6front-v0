@@ -16,16 +16,15 @@ window.addEventListener("load", () => {
 
 // creation de paragraphe avec les titres des produits
 function createElements(data) {
-  let dataFetched = data.produitRecyclables;
+  let dataFetched = data.krystoAssociation;
   console.log(dataFetched);
 
-  dataFetched.forEach((produit) => {
-    console.log(produit);
-    let p = document.createElement("p");
-    p.classList.add("data-name-test");
-    p.innerText = `${produit.name}`;
-    console.log(root);
-    root.appendChild(p);
-    console.log(p);
-  });
+  // dataFetched.forEach((produit) => {
+  //   console.log(produit);
+  //   let p = document.createElement("p");
+  //   p.classList.add("data-name-test");
+  //   p.innerText = `${produit.name}`;
+  //   console.log(root);
+  //   root.appendChild(p);
+  // });
 }
