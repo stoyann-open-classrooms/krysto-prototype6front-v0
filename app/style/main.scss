@@ -1,0 +1,24 @@
+@import "./utils/reset";
+@import "./utils/variables";
+@import "./utils/mixins";
+
+.title {
+  font-size: 6rem;
+  color: $primary;
+  @include flex-center;
+  margin: 2rem 0 0 0;
+}
+
+.subtitle {
+  font-size: 3rem;
+  color: $green;
+  font-weight: bold;
+  text-transform: uppercase;
+  @include flex-center;
+}
+.data-name-test {
+  font-size: 1.7rem;
+  @include flex-center;
+  margin-top: 5rem;
+  color: $blue;
+}

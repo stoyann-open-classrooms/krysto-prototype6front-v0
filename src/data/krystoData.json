@@ -1,0 +1,184 @@
+{
+  "krystoUser": [
+    {
+      "id": 826303012202101,
+      "dateInscription": "30-12-2021",
+      "nom": "velten",
+      "prenom": "stoyann",
+      "mail": "stoyann-nc@hotmail.com",
+      "adresse": "8 rue higgingson residence le clos st jean app d03",
+      "quartier": "Valée des colons",
+      "ville": "Nouméa",
+      "tel": "93-92-53",
+      "zipCode": 98800,
+      "historiqueAchatsBoutique": [],
+      "historiqueDonAssociation": [],
+      "TotalplastiqueCollecte": {
+        "pp": 105,
+        "hdpe": 43,
+        "ps": 85
+      }
+    }
+  ],
+
+  "produitRecyclables": [
+    {
+      "ref": 3116740035053,
+      "name": "Doo & fizz",
+      "marque": "Lutti",
+      "description": "assortiments de bonbons",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 15,
+      "typeDePlastique": "PP",
+      "remarques": "nous recycleon seulement le contenant (pas la petite structure en plastique PET qui contient les bonbons, qui doit être jetée dans le bac de recyclage plastique)  ",
+      "partieRecyclable": "boite"
+    },
+    {
+      "ref": 6810004753,
+      "name": "Mayo Kraft 475ml",
+      "marque": "Kraft",
+      "description": "pot de mayo Kraft 475ml",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 5,
+      "typeDePlastique": "PP",
+      "remarques": "Seulement le bouchon de ce produit est recyclable par Krysto le reste de doit être jetée dans la poubelle destinée au verres.",
+      "partieRecyclable": "bouchon"
+    },
+    {
+      "ref": 80177173,
+      "name": "Nutella",
+      "marque": "Ferrero",
+      "description": "Pots de nutella",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 15,
+      "typeDePlastique": "PP",
+      "remarques": "Seulement le bouchon de ce produit est recyclable par Krysto le reste de doit être jetée dans la poubelle destinée au verres.",
+      "partieRecyclable": "bouchon"
+    },
+    {
+      "ref": 3263853182010,
+      "name": "Assortiment biscuit salés",
+      "marque": "Le prix gagnant",
+      "description": "Assortiment de biscuits salés",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 15,
+      "typeDePlastique": "PP",
+      "remarques": "Seulement le bouchon de ce produit est recyclable par Krysto le reste (en PET) de doit être jetée dans la poubelle destinée au plastiques.",
+      "partieRecyclable": "bouchon"
+    },
+    {
+      "ref": 3263853182010,
+      "name": "La Motte demi-sel",
+      "marque": "President",
+      "description": "Beurre de table",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 30,
+      "typeDePlastique": "PP",
+      "remarques": "Tout le contenant de ce produit est recyclable par Krysto, si le beurre est entrée en contact avec la partie plastique merci de la rincer avant de la mettre dans le sac dediée.",
+      "partieRecyclable": "tout (sauf la feuille en aluminium qui recouvre le beurre.)"
+    },
+    {
+      "ref": 3348267120046,
+      "name": "Glace Miko 2L",
+      "marque": "Miko",
+      "description": "Glace",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 20,
+      "typeDePlastique": "PP",
+      "remarques": "Tout le contenant de ce produit est recyclable par Krysto, en revanche pour assurer ca recyclabilité il est indispensable de le rincer avant de le mettre dans le sac dediée.",
+      "partieRecyclable": "tout"
+    },
+    {
+      "ref": 3068320111919,
+      "name": "Evian 1,5L",
+      "marque": "Evian",
+      "description": "Eau minerale",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 3,
+      "typeDePlastique": "HDPE",
+      "remarques": "Seulement le bouchon de ce produit est recyclable par Krysto le reste (en PET) de doit être jetée dans la poubelle destinée au plastiques.",
+      "partieRecyclable": "bouchon"
+    }
+  ],
+
+  "tutoKrysto": [
+    {
+      "id": 1001,
+      "name": "construire une horloge en plastique recyclé",
+      "cover": "construire-une-horloge.jpeg",
+      "altText": "",
+      "description": "Créez une horloge unique, a partir de dechets plastique",
+      "time": 45,
+      "coutTotalXpf": 3400,
+      "difficulte": "⭐",
+      "likes": 18,
+      "fournitureListe": [
+        {
+          "name": "mecanisme horloge",
+          "quantity": 1,
+          "unit": "piéce"
+        },
+        {
+          "name": "système d'accroche mural",
+          "quantity": 1,
+          "unit": "piéce"
+        },
+        {
+          "name": "Cadran horloge recyclée",
+          "quantity": 1,
+          "unit": "piéce"
+        }
+      ],
+
+      "outillage": ["visseuse", "tournevis"]
+    },
+    {
+      "id": 1002,
+      "name": "Une lampe design en plastique recyclé",
+      "cover": "lampe-design.jpeg",
+      "altText": "",
+      "description": "Créez une lampe design a base de dechets plastique ",
+      "time": 135,
+      "coutTotalXpf": 3400,
+      "difficulte": "⭐⭐⭐",
+      "likes": 34,
+      "fournitureListe": [
+        {
+          "name": "ruban led",
+          "quantity": 10,
+          "unit": "Cm"
+        },
+        {
+          "name": "raccord ruban en 220",
+          "quantity": 1,
+          "unit": "piéce"
+        },
+        {
+          "name": "feuille Krysto 30X30 3mm",
+          "quantity": 5,
+          "unit": "piéce"
+        }
+      ],
+
+      "outillage": ["pistolet a colle", "tournevis", "serre joint"]
+    }
+  ],
+  "articleKrysto": [
+    {
+      "id": 1001,
+      " name": "mousquetons",
+      "cover": "mousquetons.jpeg",
+      "altText": "",
+      "description": "mousqueton en plastique recycle",
+      "prix": 100,
+      "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"]
+    }
+  ]
+}
