@@ -2,23 +2,38 @@
 @import "./utils/variables";
 @import "./utils/mixins";
 
-.title {
-  font-size: 6rem;
-  color: $primary;
-  @include flex-center;
-  margin: 2rem 0 0 0;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  background-color: $black;
+  height: 150px;
+  img {
+    height: 10rem;
+  }
+  .burger {
+    display: none;
+  }
 }
+.nav-list {
+  height: auto;
 
-.subtitle {
-  font-size: 3rem;
-  color: $green;
-  font-weight: bold;
-  text-transform: uppercase;
-  @include flex-center;
-}
-.data-name-test {
-  font-size: 1.7rem;
-  @include flex-center;
-  margin-top: 5rem;
-  color: $blue;
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+
+  color: $primary;
+  justify-content: flex-end;
+  .nav-element {
+    margin-right: 2rem;
+    cursor: pointer;
+    font-weight: bolder;
+    :hover {
+      color: $secondary;
+    }
+    .active {
+      color: $secondary;
+    }
+  }
 }

@@ -1,0 +1,88 @@
+{
+  "produitRecyclables": [
+    {
+      "ref": 3116740035053,
+      "name": "Doo & fizz",
+      "marque": "Lutti",
+      "description": "assortiments de bonbons",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 15,
+      "typeDePlastique": "PP",
+      "remarques": "nous recycleon seulement le contenant (pas la petite structure en plastique PET qui contient les bonbons, qui doit être jetée dans le bac de recyclage plastique)  ",
+      "partieRecyclable": "boite"
+    },
+    {
+      "ref": 6810004753,
+      "name": "Mayo Kraft 475ml",
+      "marque": "Kraft",
+      "description": "pot de mayo Kraft 475ml",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 5,
+      "typeDePlastique": "PP",
+      "remarques": "Seulement le bouchon de ce produit est recyclable par Krysto le reste de doit être jetée dans la poubelle destinée au verres.",
+      "partieRecyclable": "bouchon"
+    },
+    {
+      "ref": 80177173,
+      "name": "Nutella",
+      "marque": "Ferrero",
+      "description": "Pots de nutella",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 15,
+      "typeDePlastique": "PP",
+      "remarques": "Seulement le bouchon de ce produit est recyclable par Krysto le reste de doit être jetée dans la poubelle destinée au verres.",
+      "partieRecyclable": "bouchon"
+    },
+    {
+      "ref": 3263853182010,
+      "name": "Assortiment biscuit salés",
+      "marque": "Le prix gagnant",
+      "description": "Assortiment de biscuits salés",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 15,
+      "typeDePlastique": "PP",
+      "remarques": "Seulement le bouchon de ce produit est recyclable par Krysto le reste (en PET) de doit être jetée dans la poubelle destinée au plastiques.",
+      "partieRecyclable": "bouchon"
+    },
+    {
+      "ref": 3263853182010,
+      "name": "La Motte demi-sel",
+      "marque": "President",
+      "description": "Beurre de table",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 30,
+      "typeDePlastique": "PP",
+      "remarques": "Tout le contenant de ce produit est recyclable par Krysto, si le beurre est entrée en contact avec la partie plastique merci de la rincer avant de la mettre dans le sac dediée.",
+      "partieRecyclable": "tout (sauf la feuille en aluminium qui recouvre le beurre.)"
+    },
+    {
+      "ref": 3348267120046,
+      "name": "Glace Miko 2L",
+      "marque": "Miko",
+      "description": "Glace",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 20,
+      "typeDePlastique": "PP",
+      "remarques": "Tout le contenant de ce produit est recyclable par Krysto, en revanche pour assurer ca recyclabilité il est indispensable de le rincer avant de le mettre dans le sac dediée.",
+      "partieRecyclable": "tout"
+    },
+    {
+      "ref": 3068320111919,
+      "name": "Evian 1,5L",
+      "marque": "Evian",
+      "description": "Eau minerale",
+      "codeBarrePic": "link.jpeg",
+      "photo": "link.jpeg",
+      "poidMatiereRecyclableGr": 3,
+      "typeDePlastique": "HDPE",
+      "remarques": "Seulement le bouchon de ce produit est recyclable par Krysto le reste (en PET) de doit être jetée dans la poubelle destinée au plastiques.",
+      "partieRecyclable": "bouchon"
+    }
+  ]
+}

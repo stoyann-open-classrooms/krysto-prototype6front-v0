@@ -40,49 +40,56 @@ button {
   cursor: pointer;
 }
 
-.title {
-  font-size: 6rem;
-  color: #d04f4f;
+nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 2rem 0 0 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 20px;
+  background-color: #1b1b1b;
+  height: 150px;
 }
 
-.subtitle {
-  font-size: 3rem;
-  color: #68d9a4;
-  font-weight: bold;
-  text-transform: uppercase;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+nav img {
+  height: 10rem;
 }
 
-.data-name-test {
-  font-size: 1.7rem;
+nav .burger {
+  display: none;
+}
+
+.nav-list {
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 5rem;
-  color: #3282f7;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 2rem;
+  color: #7c88dd;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav-list .nav-element {
+  margin-right: 2rem;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.nav-list .nav-element :hover {
+  color: #65d198;
+}
+
+.nav-list .nav-element .active {
+  color: #65d198;
 }
 /*# sourceMappingURL=main.css.map */

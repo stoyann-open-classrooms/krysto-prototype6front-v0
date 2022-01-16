@@ -1,0 +1,59 @@
+{
+  "krystoUser": [
+    {
+      "id": 82630,
+      "type": "particulier",
+      "dateNaissance": "19-03-1985",
+      "dateInscription": "30-12-2021",
+      "nom": "velten",
+      "prenom": "stoyann",
+      "mail": "stoyann-nc@hotmail.com",
+      "mdp": "azerty",
+      "adresse": "8 rue higgingson residence le clos st jean app d03",
+      "quartier": "Valée des colons",
+      "ville": "Nouméa",
+      "tel": "93-92-53",
+      "zipCode": 98800,
+      "qrCode": "./src/qr-codeqr-82630.jpg",
+
+      "TotalplastiqueCollecte": {
+        "pp": 105,
+        "hdpe": 43,
+        "ps": 85
+      },
+      "krystoCoins": {
+        "totalDepense": 0,
+        "totalGagner": 233,
+        "credits": 233
+      }
+    },
+
+    {
+      "id": 82631,
+      "type": "particulier",
+      "dateNaissance": "20-06-1960",
+      "dateInscription": "30-12-2021",
+      "nom": "Laigret",
+      "prenom": "Eric",
+      "mail": "eric@hotmail.com",
+      "mdp": "uiop",
+      "adresse": "immeuble en haut de la côte ",
+      "quartier": "Anse vata",
+      "ville": "Nouméa",
+      "tel": "93-78-23",
+      "zipCode": 98800,
+      "qrCode": "./src/qr-codeqr-82630.jpg",
+
+      "TotalplastiqueCollecte": {
+        "pp": 5,
+        "hdpe": 10,
+        "ps": 15
+      },
+      "krystoCoins": {
+        "totalDepense": 0,
+        "totalGagner": 30,
+        "credits": 30
+      }
+    }
+  ]
+}
