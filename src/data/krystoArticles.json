@@ -2,12 +2,11 @@
   "articleKrysto": [
     {
       "id": 1001,
-      "type": "objet",
-      "nom": "mousquetons",
+
       "cover": "mousquetons.jpeg",
       "description": "Ce magnifique mousquetons en plastique recycle vous accompagneras partout",
       "altText": "un mousquetons en plastique recycler krysto ",
-      "typeDePlastique": ["hdpe", "pp"],
+
       "poidGr": 10,
       "prix": 200,
       "couleur": ["bleu", "jaune", "rouge", "blanc", "noir"],
@@ -19,7 +18,7 @@
       "type": "objet",
       "nom": "mousquetons",
       "cover": "mousquetons.jpeg",
-      "description": "Ce magnifique mousquetons en plastique recycle vous accompagneras partout",
+      "description": "",
       "altText": "un mousquetons en plastique recycler krysto ",
       "typeDePlastique": ["hdpe", "pp"],
       "poidGr": 10,
@@ -33,7 +32,7 @@
       "type": "construction",
       "nom": "Brique",
       "cover": "brique.jpeg",
-      "description": "Laissez libre court a votre imagination avec les briques krysto",
+      "description": "",
       "altText": "Un lot de brique krysto ",
       "typeDePlastique": ["hdpe", "pp"],
       "poidGr": 1500,

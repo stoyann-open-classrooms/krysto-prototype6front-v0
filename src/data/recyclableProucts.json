@@ -1,30 +1,6 @@
 {
   "produitRecyclables": [
     {
-      "ref": 3116740035053,
-      "name": "Doo & fizz",
-      "marque": "Lutti",
-      "description": "assortiments de bonbons",
-      "codeBarrePic": "link.jpeg",
-      "photo": "link.jpeg",
-      "poidMatiereRecyclableGr": 15,
-      "typeDePlastique": "PP",
-      "remarques": "nous recycleon seulement le contenant (pas la petite structure en plastique PET qui contient les bonbons, qui doit être jetée dans le bac de recyclage plastique)  ",
-      "partieRecyclable": "boite"
-    },
-    {
-      "ref": 6810004753,
-      "name": "Mayo Kraft 475ml",
-      "marque": "Kraft",
-      "description": "pot de mayo Kraft 475ml",
-      "codeBarrePic": "link.jpeg",
-      "photo": "link.jpeg",
-      "poidMatiereRecyclableGr": 5,
-      "typeDePlastique": "PP",
-      "remarques": "Seulement le bouchon de ce produit est recyclable par Krysto le reste de doit être jetée dans la poubelle destinée au verres.",
-      "partieRecyclable": "bouchon"
-    },
-    {
       "ref": 80177173,
       "name": "Nutella",
       "marque": "Ferrero",
