@@ -1,32 +1,32 @@
-console.log("hello world");
-
 const root = document.getElementById("root");
 const url = "http://localhost:1337/api/";
-let allProducts = [];
+
+let allTrocs = [];
 init();
 
 function init() {
-  getProduct();
+  getTroc();
 }
 
-function getProduct() {
-  fetch(`${url}produits/`)
+function getTroc() {
+  fetch(`${url}trocs/`)
     .then((data) => data.json())
     .then((result) => {
-      allProducts = result;
-      renderProduct(allProducts);
+      allTrocs = result;
+      console.log("all trocs", allTrocs.data);
+      renderTroc(allTrocs.data);
     });
 }
 
-console.log(allProducts);
-function renderProduct(products) {
-  console.log(products.data);
+function renderTroc(trocs) {
   let list = [];
-  products.data.forEach((el) => {
-    console.log(el.attributes.titre);
+  trocs.forEach((el) => {
+    console.log(el.attributes);
+
     const item = `<li>${el.attributes.titre}</li>`;
     list = [...list, item];
   });
+
   console.log(list);
-  root.innerHTML = `<ul>${list.join("")}</ul>`;
+  root.innerHTML = `<ul>${list.join("")}<ul/>`;
 }
